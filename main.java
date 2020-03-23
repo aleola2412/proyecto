@@ -5,18 +5,13 @@ import java.util.Scanner;
 public class main {
 
 	public static void main(String[] args) {
-		
-		
-		System.out.println("asdasdasdsad");
-		System.out.println("asdasdasdsad");
-		System.out.println("asdasdasdsad");
-		System.out.println("asdasdasdsad");
 
 		Scanner tec = new Scanner(System.in);
 		String TC;
 		String cOrigen;
 		String cDestino;
 
+		System.out.println();
 		System.out.println("**************** -Trenes cafran- ****************");
 		System.out.println("Destinos: Barcelona / Madrid / Sevilla / Valencia");
 		System.out.println("1: Entrar como trabajador");

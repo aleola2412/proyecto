@@ -6,8 +6,6 @@ public class precio {
 
 	Scanner tec = new Scanner(System.in);
 	
-	trayectos p = new trayectos();
-	
 	String NombreP;
 	String ApellidoP1;
 	String ApellidoP2;
@@ -19,6 +17,8 @@ public class precio {
 	
 	int Ncuenta;
 	int CVV;
+	
+   vaidarDNI D = new validarDNI();
 	
 	public void realizarpago() {
 		
@@ -75,6 +75,8 @@ public class precio {
 		System.out.println("Nombre titular: " + NPago + " " + A1Pago + " " + A2Pago);
 		System.out.println("Numero targeta:" + Ncuenta + " --/-- CVV: Correcto");
 	}
+	
+	
 	
 	
 }
