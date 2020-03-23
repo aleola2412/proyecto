@@ -1,5 +1,6 @@
 package Proyecto;
 
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class main {
@@ -11,8 +12,12 @@ public class main {
 		String cOrigen;
 		String cDestino;
 
-		System.out.println();
-		System.out.println("**************** -Trenes cafran- ****************");
+		LocalDateTime locaDate = LocalDateTime.now();
+		int hours  = locaDate.getHour();
+		int minutes = locaDate.getMinute();
+		int seconds = locaDate.getSecond();
+		
+		System.out.println("**** -Trenes cafran- ***" + "Hora actual: "+ hours  + ":" + minutes + ":" + seconds + "****");
 		System.out.println("Destinos: Barcelona / Madrid / Sevilla / Valencia");
 		System.out.println("1: Entrar como trabajador");
 		System.out.println("2: Realizar reserva");
