@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class main {
 
 	public static void main(String[] args) {
+		
+		
+		System.out.println("asdasdasdsad");
+		System.out.println("asdasdasdsad");
+		System.out.println("asdasdasdsad");
+		System.out.println("asdasdasdsad");
 
 		Scanner tec = new Scanner(System.in);
 		String TC;
