@@ -79,17 +79,8 @@ public class main {
 
 			t.mostrarMenuTrayectos(cOrigen, cDestino);
 
-			// Elegir clase de viaje
-
-			System.out.println();
-			System.out.println("En que clase desea viajar:");
-			System.out.println("1.First class (Precio doble que economy)");
-			System.out.println("2.Economy class (Precio adaptado a todo el mundo)");
-
-			int tipoClase = tec.nextInt();
-
 			System.out.println("****************-Confirmar billete-****************");
-			t.generarprebillete(cOrigen, cDestino, tipoClase);
+			t.generarprebillete(cOrigen, cDestino);
 
 			System.out.println();
 			System.out.println("1. Continuar con la reserva y realizar pago. ");
@@ -137,7 +128,7 @@ public class main {
 				if (c == 1) {
 
 					System.out.println("****************-Billete-****************");
-					t.generarprebillete(cOrigen, cDestino, tipoClase);
+					t.generarprebillete(cOrigen, cDestino);
 					System.out.println();
 					precio.mostrarReservaCompleta();
 
